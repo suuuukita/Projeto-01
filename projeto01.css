@@ -1,0 +1,65 @@
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: static;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+ }
+ 
+ .interface {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    font-size: 50px;
+    font-family: initial;
+    
+ }
+ 
+ .page1 {
+    background-image: url(img/haerin\ stage.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
+ 
+ .page2 {
+    background-image: url(img/minji\ bj\ stage.gif);
+    background-repeat: no-repeat;
+    background-size: cover
+ }
+ 
+ .page3 {
+    background-image: url(img/hyein\ gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover
+ }
+ 
+ .page4 {
+    background-image: url(img/danielle\ nj.gif);
+    background-repeat: no-repeat;
+    background-size: cover
+ }
+ 
+ .page5 {
+    background-image: url(img/eta\ hanni.gif);
+    background-repeat: no-repeat;
+    background-size: cover
+ }
+ 
+ .page6 {
+    background-image: url(img/nj\ hype\ boy\ gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover
+ }
+ 
+ 
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
